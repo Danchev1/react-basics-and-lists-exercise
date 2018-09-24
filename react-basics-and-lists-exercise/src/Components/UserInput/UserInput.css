@@ -1,0 +1,25 @@
+.inputHolder {
+    text-align: left;
+}
+
+.inputHolder label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+    color: darkslategray;
+}
+
+.inputHolder input {
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    border: 1px solid #222;
+    border-radius: 2px;
+    transition: border-color .15s ease-in, color .15s ease-in ;
+}
+.inputHolder input:focus {
+    outline: none;
+    color: #666;
+    border-color: #666;
+}
